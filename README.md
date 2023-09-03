@@ -26,6 +26,7 @@ It's easy, just do:
 4. Airflow credentials are the default values.
 5. Once inside, activate the DAG, wait for it to turn dark green and voila! The pipeline ran.
 6. To kill everything, you can use `docker-compose down`
+7. If needed, there is a SQL script to create the table where the data will be stored.
 
 
 ![DAG Screenshot](dag-screenshot.png "DAG Screenshot")
